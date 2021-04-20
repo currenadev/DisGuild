@@ -2,9 +2,14 @@
   "name": "disguild",
   "version": "0.1.0",
   "description": "A library for interacting with the Discord and Guilded bot APIs.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "node test/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +28,14 @@
   "bugs": {
     "url": "https://github.com/currenadev/DisGuild/issues"
   },
-  "homepage": "https://github.com/currenadev/DisGuild#readme"
+  "homepage": "https://github.com/currenadev/DisGuild#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "@types/ws": "^7.4.1",
+    "jsdoc": "^3.6.6",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "ws": "^7.4.5"
+  }
 }
