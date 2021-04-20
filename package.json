@@ -1,0 +1,27 @@
+{
+  "name": "disguild",
+  "version": "0.1.0",
+  "description": "A library for interacting with the Discord and Guilded bot APIs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/currenadev/DisGuild.git"
+  },
+  "keywords": [
+    "Discord",
+    "Guilded",
+    "API",
+    "Bots",
+    "Bot",
+    "DisGuild"
+  ],
+  "author": "CurrenaDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/currenadev/DisGuild/issues"
+  },
+  "homepage": "https://github.com/currenadev/DisGuild#readme"
+}
